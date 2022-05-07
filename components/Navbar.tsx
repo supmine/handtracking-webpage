@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-orange-400 p-3 ">
+      <nav className="flex items-center flex-wrap bg-orange-400 p-3 font-kanit">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4 ">
             <span className="text-lg text-white font-bold tracking-wide">
