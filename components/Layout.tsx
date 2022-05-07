@@ -4,7 +4,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="font-kanit">
         <main>{children}</main>
       </div>
     </>
