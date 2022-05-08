@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-orange-400 p-3 font-kanit">
+      <nav className="flex items-center flex-wrap bg-blue-700 p-3 font-kanit">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4 ">
             <span className="text-lg text-white font-bold tracking-wide">
@@ -19,7 +19,7 @@ const Navbar = () => {
           </a>
         </Link>
         <button
-          className=" inline-flex p-3 hover:bg-orange-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none"
+          className=" inline-flex p-3 hover:bg-blue-800 rounded lg:hidden text-white ml-auto hover:text-white outline-none"
           onClick={handleClick}
         >
           <svg
@@ -45,22 +45,22 @@ const Navbar = () => {
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white ">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-800 hover:text-white ">
                 Overview
               </a>
             </Link>
             <Link href="/project">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-800 hover:text-white">
                 Project
               </a>
             </Link>
             <Link href="/demo">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-800 hover:text-white">
                 Demo
               </a>
             </Link>
             <Link href="/team">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-800 hover:text-white">
                 Team
               </a>
             </Link>
