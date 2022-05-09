@@ -11,7 +11,13 @@ export default function Home() {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1>Test h1 main</h1>
+        <h1>Teem</h1>
+        <div className="grid grid-cols-5 gap-4 p-5">
+          <div>Supanart Barnsongkit</div>
+          <div>Napat</div>
+          <div>First</div>
+          <div>Thun</div>
+        </div>
       </main>
     </div>
   );
