@@ -29,7 +29,7 @@ export default function Home() {
               ></img>
               <div className="text-2xl">Supanart Barnsongkit</div>
               <div className="text-xl">6230522621</div>
-              <div>Contributedin Researching Process</div>
+              <div>Contributed in Researching Process</div>
             </div>
             <div>
               <img
@@ -37,7 +37,7 @@ export default function Home() {
                 src="https://scontent.fbkk13-2.fna.fbcdn.net/v/t1.6435-9/118407812_1610189792483160_7447130907652370590_n.jpg?_nc_cat=111&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=ydgmC6lmYZ0AX9h59Gx&tn=12A_27YiOshXlOVA&_nc_ht=scontent.fbkk13-2.fna&oh=00_AT_UCos0iUKB8hic7Sh05ueoeSczurHLZ1fGv27iDGSzag&oe=629F6072"
               ></img>
               <div className="text-2xl">Tanapol Hongfongfah</div>
-              <div className="text-xl">6231317521</div>
+              <div className="text-xl">6230221721</div>
               <div>Contributed in Interative Process</div>
             </div>
             <div>
@@ -46,7 +46,7 @@ export default function Home() {
                 src="https://scontent.fbkk12-2.fna.fbcdn.net/v/t39.30808-6/245160715_5029821663699996_7540981110192779560_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=IO_lCRzkT_QAX8EsnVx&_nc_ht=scontent.fbkk12-2.fna&oh=00_AT-rB36-xEpXWG9PwMcNzvYJGCo2JT2FVl_16HTupyBk3w&oe=627EAB07"
               ></img>
               <div className="text-2xl">Thunthup Kiratisehwe</div>
-              <div className="text-xl">6231317521</div>
+              <div className="text-xl">6230205721</div>
               <div>Contributed in AI Flow Process</div>
             </div>
           </div>
