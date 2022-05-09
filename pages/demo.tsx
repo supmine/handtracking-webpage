@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-
+import YoutubeVideo from "../components/YoutubeVideo";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
@@ -11,7 +11,9 @@ export default function Home() {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1>Test h1 main</h1>
+        <div>
+          <YoutubeVideo />
+        </div>
       </main>
     </div>
   );
