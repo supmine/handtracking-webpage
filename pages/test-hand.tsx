@@ -3,8 +3,8 @@ import Head from "next/head";
 import Webcam from "react-webcam";
 import { drawConnectors, drawLandmarks } from "@mediapipe/drawing_utils";
 import { Hands, HAND_CONNECTIONS } from "@mediapipe/hands";
-import * as cam from "@mediapipe/camera_utils";
 import Link from "next/link";
+import { Camera } from "@mediapipe/camera_utils";
 function Test() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const webcamRef = useRef<Webcam>(null);
@@ -15,6 +15,7 @@ function Test() {
   };
 
   function detect(results) {
+    // console.log("Running");
     // const video = webcamRef.current.video;
     const videoWidth = webcamRef.current.video.videoWidth;
     const videoHeight = webcamRef.current.video.videoHeight;
@@ -68,7 +69,7 @@ function Test() {
       typeof webcamRef.current !== "undefined" &&
       webcamRef.current !== null
     ) {
-      camera = new cam.Camera(webcamRef.current.video, {
+      camera = new Camera(webcamRef.current.video, {
         onFrame: async () => {
           try {
             await hands.send({ image: webcamRef.current.video });
@@ -92,13 +93,10 @@ function Test() {
     <div className="flex min-h-screen flex-col">
       <Head>
         <title>Hand-Tracking - Computer Vision</title>
-
-        <link rel="icon" href="/static/logo.jpg" />
+        <link rel="icon" href="/CODEL.ico" />
+        <meta name="keywords" content="computer vision project" />
       </Head>
-      <header>
-        <h1>Title</h1>
-      </header>
-      <main>
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <div className="flex justify-center">
           {
             <Webcam
@@ -109,7 +107,7 @@ function Test() {
           }
           {<canvas ref={canvasRef} />}
         </div>
-        <div>
+        <div className="flex">
           <Link href={"/"}>
             <button onClick={handleClick}>Back</button>
           </Link>

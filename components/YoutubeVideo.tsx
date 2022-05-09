@@ -4,8 +4,8 @@ import YouTube from "react-youtube";
 export default class YoutubeVideo extends React.Component {
   render() {
     const opts = {
-      height: "480",
-      width: "854",
+      height: "720",
+      width: "1280",
       playerVars: {
         autoplay: 1,
       },
@@ -13,7 +13,6 @@ export default class YoutubeVideo extends React.Component {
 
     return (
       <div>
-        <h1 className="flex justify-center p-14 text-4xl">Demo</h1>
         <div className="flex justify-start h-full">
           <YouTube videoId="NKfXr_9xk2Q" opts={opts} onReady={this._onReady} />
         </div>

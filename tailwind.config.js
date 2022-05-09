@@ -11,6 +11,7 @@ module.exports = {
         press: ["Press Start 2P", "cursive"],
         ubuntu: ["Ubuntu Mono", "monospace"],
         kanit: ["Kanit"],
+        bangers: ["Bangers"],
       },
     },
   },
