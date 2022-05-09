@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import angryBird from "../public/images/angrybird.png";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -15,9 +15,6 @@ export default function Home() {
         <h1 className="text-8xl py-20">Playing AngryBird using hand gesture</h1>
         <div className="object-contain w-full">
           <Image src={angryBird} alt="angry bird" layout="responsive" />
-        </div>
-        <div>
-          <Image src={angryBird} alt="angry bird" />
         </div>
       </main>
     </div>
