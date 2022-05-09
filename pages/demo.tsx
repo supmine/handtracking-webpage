@@ -3,7 +3,7 @@ import Image from "next/image";
 import YoutubeVideo from "../components/YoutubeVideo";
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex min-h-screen flex-col">
       <Head>
         <title>Demo - Computer Vision</title>
         <link rel="icon" href="/CODEL.ico" />
