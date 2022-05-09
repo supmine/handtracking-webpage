@@ -11,21 +11,39 @@ export default function Home() {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
           <Image
-            src="/images/projectStatement.jpg"
+            src="/images/projectStatement.svg"
             width="1920"
             height="1080"
           />
-          <Image src="/images/methodV1.jpg" width="1920" height="1080" />
-          <Image src="/images/techChallengeV1.jpg" width="1920" height="1080" />
-          <Image src="/images/fixImageJitter.jpg" width="1920" height="1080" />
-          <Image src="/images/problemV1.jpg" width="1920" height="1080" />
-          <Image src="/images/methodV2.jpg" width="1920" height="1080" />
-          <Image src="/images/methodV2.2.jpg" width="1920" height="1080" />
-          <Image src="/images/techChallengeV2.jpg" width="1920" height="1080" />
-          <Image src="/images/Result.jpg" width="1920" height="1080" />
-          <Image src="/images/futurePlan.jpg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/methodV1.svg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/techChallengeV1.svg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/fixImageJitter.svg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/problemV1.svg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/methodV2.svg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/methodV2.2.svg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/techChallengeV2.svg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/result.svg" width="1920" height="1080" />
+        </div>
+        <div class="border-solid border-2 border-sky-500 ... mb-2">
+          <Image src="/images/futurePlan.svg" width="1920" height="1080" />
         </div>
       </main>
     </div>
