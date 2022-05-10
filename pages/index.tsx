@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import angryBird from "../public/images/angrybird.png";
-import handGif from "../public/images/hand_move.gif";
+import handGif from "../public/images/angrybirds.gif";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
