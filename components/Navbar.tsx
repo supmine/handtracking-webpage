@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-blue-700 p-3 font-kanit">
+      <nav className="mb-2 flex items-center flex-wrap bg-blue-700 p-3 font-kanit">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4 ">
             <span className="text-lg text-white font-bold tracking-wide">
@@ -62,6 +62,11 @@ const Navbar = () => {
             <Link href="/team">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-800 hover:text-white">
                 Team
+              </a>
+            </Link>
+            <Link href="/code">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-800 hover:text-white">
+                Code
               </a>
             </Link>
             <Link href="/test-hand">

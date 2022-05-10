@@ -15,9 +15,9 @@ export default function Home() {
         <h1 className="text-8xl py-20 font-bangers">
           Playing AngryBird using hand gesture
         </h1>
-        <div className="object-contain">
+        {/* <div className="object-contain">
           <Image src={angryBird} alt="angry bird" />
-        </div>
+        </div> */}
         <div className="object-contain">
           <Image src={handGif} alt="hand gif" />
         </div>
