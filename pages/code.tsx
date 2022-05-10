@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <Head>
-        <title>Demo - Computer Vision</title>
+        <title>Code - Computer Vision</title>
         <link rel="icon" href="/CODEL.ico" />
         <meta name="keywords" content="computer vision project" />
       </Head>
