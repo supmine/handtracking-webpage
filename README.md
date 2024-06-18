@@ -10,3 +10,5 @@ This repository serves as the webpage for our project. You can find the source c
 
 - [hand-vision-control version 1](https://github.com/napatchee05/hand-vision-control)
 - [hand-vision-control version 2](https://github.com/thunthup/hand-vision-control)
+
+You can see our web in this [link](https://handtracking-computervision.vercel.app/). It contains a demo and a test for hand tracking in the browser, as well as our presentation.
